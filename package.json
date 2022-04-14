@@ -1,0 +1,27 @@
+{
+  "name": "generator-c64basicv2",
+  "version": "0.1.0",
+  "description": "A yeoman generator to scaffold a simple c64 basic v2 project",
+  "files": [
+    "generators"
+  ],
+  "keywords": [
+    "yeoman-generator",
+    "c64",
+    "basic",
+    "basic language",
+    "commodore",
+    "basic v2",
+    "pet"
+  ],
+  "dependencies": {
+    "yeoman-generator": "^5.6.1"
+  },
+  "author": "gverduci",
+  "publisher": "gverduci",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gverduci/generator-c64basicv2"
+  },
+  "license": "BSD-3-Clause License"
+}
