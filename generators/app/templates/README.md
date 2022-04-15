@@ -1,5 +1,4 @@
 # <%= name %>
-
 <%= description %>
 
 ## Author
@@ -18,7 +17,7 @@
 
 The root folder contains three bash scripts to convert and run c64 basic v2 programs. To use these script install [Vice](https://vice-emu.sourceforge.io/)
 
-*run.sh*: to run a prg
+*run.sh*: to run a prg using Vice
 
 ```bash
 #!/bin/bash
@@ -34,7 +33,6 @@ Run this script using this command:
 ```bash
 bash run.sh src/helloworld.prg
 ```
-
 
 *convertAll.sh*: to convert all the prg (src folder) between ASCII, PETSCII and tokenized BASIC.
 

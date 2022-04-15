@@ -1,7 +1,7 @@
 {
   "name": "generator-c64basicv2",
-  "version": "0.2.0",
-  "description": "A yeoman generator to scaffold a simple c64 basic v2 project",
+  "version": "0.2.1",
+  "description": "A Yeoman generator to scaffold a simple c64 basic v2 project",
   "files": [
     "generators"
   ],
