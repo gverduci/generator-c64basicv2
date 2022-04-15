@@ -76,5 +76,17 @@ module.exports = class extends Generator {
         this.templatePath('bin/README.md'),
         this.destinationPath('bin/README.md'),
     );
+    this.fs.copy(
+      this.templatePath('run.sh'),
+      this.destinationPath('run.sh'),
+    );
+    this.fs.copy(
+      this.templatePath('convertAll.sh'),
+      this.destinationPath('convertAll.sh'),
+    );
+    this.fs.copy(
+      this.templatePath('created64.sh'),
+      this.destinationPath('created64.sh'),
+    );
   }
 };
